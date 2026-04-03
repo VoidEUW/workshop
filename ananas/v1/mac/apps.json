@@ -1,0 +1,9 @@
+[
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/download",
+    "type": "app",
+    "install_command": "brew install --cask visual-studio-code"
+  }
+]
