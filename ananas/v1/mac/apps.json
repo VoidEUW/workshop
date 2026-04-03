@@ -2,8 +2,19 @@
   {
     "id": "vscode",
     "name": "Visual Studio Code",
+    "description": "A powerful code editor developed by Microsoft, available for Windows, macOS, and Linux. It supports a wide range of programming languages and extensions.",
     "url": "https://code.visualstudio.com/download",
     "type": "app",
+    "categories": ["development"],
     "install_command": "brew install --cask visual-studio-code"
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "description": "A free and open-source image editor used for photo retouching, image composition, and digital art.",
+    "url": "https://www.gimp.org/",
+    "type": "app",
+    "categories": ["image-editing"],
+    "install_command": "brew install --cask gimp"
   }
 ]
