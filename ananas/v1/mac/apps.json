@@ -2,19 +2,64 @@
   {
     "id": "vscode",
     "name": "Visual Studio Code",
-    "description": "A powerful code editor developed by Microsoft, available for Windows, macOS, and Linux. It supports a wide range of programming languages and extensions.",
-    "url": "https://code.visualstudio.com/download",
+    "url": "https://code.visualstudio.com",
     "type": "app",
-    "categories": ["development"],
     "install_command": "brew install --cask visual-studio-code"
   },
   {
-    "id": "gimp",
-    "name": "GIMP",
-    "description": "A free and open-source image editor used for photo retouching, image composition, and digital art.",
-    "url": "https://www.gimp.org/",
-    "type": "app",
-    "categories": ["image-editing"],
-    "install_command": "brew install --cask gimp"
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "url": "https://www.mozilla.org/firefox",
+    "type": "browser",
+    "install_command": "brew install --cask firefox"
+  },
+  {
+    "id": "iterm2",
+    "name": "iTerm2",
+    "url": "https://iterm2.com",
+    "type": "terminal",
+    "install_command": "brew install --cask iterm2"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "url": "https://git-scm.com",
+    "type": "dev",
+    "install_command": "brew install git"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "url": "https://nodejs.org",
+    "type": "dev",
+    "install_command": "brew install node"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "url": "https://www.python.org",
+    "type": "dev",
+    "install_command": "brew install python"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "url": "https://www.docker.com",
+    "type": "dev",
+    "install_command": "brew install --cask docker"
+  },
+  {
+    "id": "vlc",
+    "name": "VLC",
+    "url": "https://www.videolan.org/vlc",
+    "type": "media",
+    "install_command": "brew install --cask vlc"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "url": "https://www.spotify.com",
+    "type": "media",
+    "install_command": "brew install --cask spotify"
   }
 ]
