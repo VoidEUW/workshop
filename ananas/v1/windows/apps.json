@@ -1,0 +1,51 @@
+[
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com",
+    "type": "app",
+    "install_command": "winget install --id Microsoft.VisualStudioCode -e --silent"
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "url": "https://www.mozilla.org/firefox",
+    "type": "browser",
+    "install_command": "winget install --id Mozilla.Firefox -e --silent"
+  },
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "url": "https://www.7-zip.org",
+    "type": "utility",
+    "install_command": "winget install --id 7zip.7zip -e --silent"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "url": "https://git-scm.com",
+    "type": "dev",
+    "install_command": "winget install --id Git.Git -e --silent"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "url": "https://nodejs.org",
+    "type": "dev",
+    "install_command": "winget install --id OpenJS.NodeJS -e --silent"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "url": "https://www.python.org",
+    "type": "dev",
+    "install_command": "winget install --id Python.Python.3.13 -e --silent"
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "url": "https://github.com/PowerShell/PowerShell",
+    "type": "shell",
+    "install_command": "winget install --id Microsoft.PowerShell -e --silent"
+  }
+]
